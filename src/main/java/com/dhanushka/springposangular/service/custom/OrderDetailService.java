@@ -6,5 +6,9 @@
 
 package com.dhanushka.springposangular.service.custom;
 
-public interface OrderDetailService {
+import com.dhanushka.springposangular.dto.CustomerDTO;
+import com.dhanushka.springposangular.dto.OrderDetailDTO;
+import com.dhanushka.springposangular.service.CRUDServices;
+
+public interface OrderDetailService extends CRUDServices<OrderDetailDTO> {
 }

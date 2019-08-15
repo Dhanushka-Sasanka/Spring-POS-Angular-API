@@ -8,6 +8,8 @@ package com.dhanushka.springposangular.service.custom.impl;
 
 import com.dhanushka.springposangular.dto.CustomerDTO;
 import com.dhanushka.springposangular.entity.CustomerEntity;
+import com.dhanushka.springposangular.mapper.custom.CustomerMapper;
+import com.dhanushka.springposangular.mapper.custom.impl.CustomerMapperImpl;
 import com.dhanushka.springposangular.repository.CustomerRepo;
 import com.dhanushka.springposangular.service.custom.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,35 +24,49 @@ public class CustomerServiceImpl implements CustomerService {
     @Autowired
     private CustomerRepo customerRepo;
 
-    public CustomerDTO addCustomer(CustomerDTO customerDTO) {
+    private CustomerMapper customerMapper;
+
+    CustomerServiceImpl(){
+     customerMapper = new CustomerMapperImpl();
+    }
+
+
+    @Override
+    public CustomerDTO saveService(CustomerDTO customerDTO) {
         return null;
     }
 
-    public CustomerDTO updateCustomer(String id, CustomerDTO customerDTO) {
+    @Override
+    public CustomerDTO updateService(CustomerDTO customerDTO) {
         return null;
     }
 
-    public CustomerDTO deleteCustomer(String id) {
+    @Override
+    public CustomerDTO deleteService(String id) {
         return null;
     }
 
-    public CustomerDTO searchCustomer(String id) {
+    @Override
+    public CustomerDTO findByIdService(String id) {
         return null;
     }
 
-    public List<CustomerDTO> getAllCustomers() {
+    @Override
+    public List<CustomerDTO> findAllService() {
         List<CustomerEntity> customerList = customerRepo.findAll();
         System.out.println("customerList = " + customerList);
-        ArrayList<CustomerDTO> dto = new ArrayList<>();
+        ArrayList<CustomerDTO> customerDTOList = new ArrayList<>();
         for (CustomerEntity cus : customerList) {
-
-            dto.add(new CustomerDTO(cus.getCustomerId(),
-                    cus.getCustomerName(),
-                    cus.getCustomerAddress(),
-                    cus.getCustomerTele(),
-                    cus.getCustomerEmail()
-            ));
+            CustomerDTO dtoFromMapper = customerMapper.getDTOFromMapper(cus);
+            customerDTOList.add(dtoFromMapper);
         }
-        return dto;
+        return customerDTOList;
     }
 }
+
+//            customerDTOList.add(new CustomerDTO(cus.getCustomerId(),
+//                    cus.getCustomerName(),
+//                    cus.getCustomerAddress(),
+//                    cus.getCustomerTele(),
+//                    cus.getCustomerEmail()
+//            ));

@@ -27,15 +27,13 @@ public class CustomerController {
 
     @Transactional
     @GetMapping(value = "/all")
-    public ResponseEntity getAllCustomers()  {
-        List<CustomerDTO> allCustomers = null;
-        try {
-            allCustomers = customerService.getAllCustomers();
-            System.out.println("allCustomers = " + allCustomers);
-        } catch (Exception e) {
-            System.out.println("exception = " + e);
-            e.printStackTrace();
+    public ResponseEntity getAllCustomers() {
+        List<CustomerDTO> allCustomers = customerService.findAllService();
+        System.out.println("allCustomers = " + allCustomers);
+        if (allCustomers.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.FORBIDDEN).body("No Customers");
+        } else {
+            return new ResponseEntity(allCustomers, HttpStatus.OK);
         }
-        return new ResponseEntity(allCustomers, HttpStatus.OK);
     }
 }
