@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="posangualur">
+    <output-path>$PROJECT_DIR$/out/artifacts/posangualur</output-path>
+    <root id="archive" name="posangualur.war" />
+  </artifact>
+</component>
