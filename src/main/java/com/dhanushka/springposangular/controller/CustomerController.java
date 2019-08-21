@@ -10,11 +10,11 @@ import com.dhanushka.springposangular.dto.CustomerDTO;
 import com.dhanushka.springposangular.service.custom.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -25,7 +25,7 @@ public class CustomerController {
     @Autowired
     private CustomerService customerService;
 
-    @Transactional
+
     @GetMapping(value = "/all")
     public ResponseEntity getAllCustomers() {
         List<CustomerDTO> allCustomers = customerService.findAllService();
@@ -36,4 +36,12 @@ public class CustomerController {
             return new ResponseEntity(allCustomers, HttpStatus.OK);
         }
     }
+
+    @PostMapping(value = "/add")
+    public ResponseEntity saveCustomer(@RequestBody CustomerDTO customer){
+        System.out.println("customer = " + customer);
+
+        return new ResponseEntity(customerService.saveService(customer),HttpStatus.OK);
+    }
+
 }
