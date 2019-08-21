@@ -14,6 +14,7 @@ import com.dhanushka.springposangular.repository.CustomerRepo;
 import com.dhanushka.springposangular.service.custom.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,7 +34,15 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public CustomerDTO saveService(CustomerDTO customerDTO) {
-        return null;
+        CustomerEntity customerEntity = new CustomerEntity(customerDTO.getCustomerId(), customerDTO.getCustomerName(), customerDTO.getCustomerAddress(), customerDTO.getCustomerTele(), customerDTO.getCustomerEmail());
+        System.out.println("customerEntity = " + customerEntity);
+        System.out.println("CustomerServiceImpl.saveService111111111111");
+        CustomerEntity customerEntity1 = customerRepo.save(customerEntity);//customerMapper.getEntityFromMapper(customerDTO)
+        System.out.println("CustomerServiceImpl.saveService2222222222222222");
+        return customerMapper.getDTOFromMapper(customerEntity1);
+//        if(saveCustomer.getCustomerEmail().equalsIgnoreCase(customerDTO.getCustomerEmail())){
+//        }
+//        return null;
     }
 
     @Override
