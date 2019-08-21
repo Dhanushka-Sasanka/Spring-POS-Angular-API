@@ -83,4 +83,15 @@ public class CustomerEntity implements Serializable {
         this.orders = orders;
     }
 
+    @Override
+    public String toString() {
+        return "CustomerEntity{" +
+                "customerId='" + customerId + '\'' +
+                ", customerName='" + customerName + '\'' +
+                ", customerAddress='" + customerAddress + '\'' +
+                ", customerTele='" + customerTele + '\'' +
+                ", customerEmail='" + customerEmail + '\'' +
+                ", orders=" + orders +
+                '}';
+    }
 }
