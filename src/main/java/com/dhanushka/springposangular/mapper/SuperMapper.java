@@ -11,4 +11,6 @@ public interface SuperMapper<E ,D> {
     E getEntityFromMapper(D dto);
 
     D getDTOFromMapper(E entity);
+
+
 }

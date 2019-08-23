@@ -15,7 +15,6 @@ import java.util.List;
 public class ItemEntity implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private String itemcode;
     private String itemdescription;
     private int qunatity;

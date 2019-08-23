@@ -7,7 +7,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb9c0881-2e76-43e2-b144-bbfebcb140fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/controller/ItemController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/dto/CustomerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/dto/CustomerDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/CustomerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/CustomerEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/ItemEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/ItemEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/OrderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/OrderEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/mapper/SuperMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/mapper/SuperMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/mapper/custom/CustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/mapper/custom/CustomerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/mapper/custom/impl/CustomerMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/mapper/custom/impl/CustomerMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/CRUDServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/CRUDServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/ItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/OrderDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/OrderDetailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/configuration/POSConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/configuration/POSConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/configuration/PersistenceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/configuration/PersistenceConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/configuration/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/configuration/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/dto/CustomerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/dto/CustomerDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/dto/ItemDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/dto/ItemDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/dto/OrderDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/dto/OrderDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/dto/OrderDetailDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/dto/OrderDetailDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/entity/CustomerEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/entity/CustomerEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/entity/ItemEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/entity/ItemEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/entity/OrderDetailEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/entity/OrderDetailEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/entity/OrderEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/entity/OrderEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/entity/Order_Detail_PK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/entity/Order_Detail_PK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/repository/CustomerRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/repository/CustomerRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/repository/ItemRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/repository/ItemRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/repository/OrderDetailRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/repository/OrderDetailRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/repository/OrderRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/repository/OrderRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/service/custom/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/service/custom/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/service/custom/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/service/custom/ItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/service/custom/OrderDetailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/service/custom/OrderDetailService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/service/custom/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/service/custom/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/service/custom/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/service/custom/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/service/custom/impl/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/service/custom/impl/ItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/service/custom/impl/OrderDetailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/service/custom/impl/OrderDetailServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/service/custom/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dhanushka/springposangular/service/custom/impl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/configuration/POSConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/configuration/POSConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/configuration/PersistenceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/configuration/PersistenceConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/configuration/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/configuration/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/dto/CustomerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/dto/CustomerDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/dto/ItemDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/dto/ItemDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/dto/OrderDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/dto/OrderDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/dto/OrderDetailDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/dto/OrderDetailDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/entity/CustomerEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/entity/CustomerEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/entity/ItemEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/entity/ItemEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/entity/OrderDetailEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/entity/OrderDetailEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/entity/OrderEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/entity/OrderEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/entity/Order_Detail_PK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/entity/Order_Detail_PK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/repository/CustomerRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/repository/CustomerRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/repository/ItemRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/repository/ItemRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/repository/OrderDetailRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/repository/OrderDetailRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/repository/OrderRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/repository/OrderRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/service/custom/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/service/custom/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/service/custom/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/service/custom/ItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/service/custom/OrderDetailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/service/custom/OrderDetailService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/service/custom/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/service/custom/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/service/custom/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/service/custom/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/service/custom/impl/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/service/custom/impl/ItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/service/custom/impl/OrderDetailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/service/custom/impl/OrderDetailServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/service/custom/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-pos-angular-api-1.0-SNAPSHOT/WEB-INF/classes/com/dhanushka/springposangular/service/custom/impl/OrderServiceImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,14 +88,18 @@
     <session id="842966588">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.253" value="1" />
           <entry key="project.open.time.41" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.97" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
-          <entry key="java" value="63" />
+          <entry key="class" value="3" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="86" />
           <entry key="jsp" value="1" />
           <entry key="properties" value="3" />
           <entry key="xml" value="5" />
@@ -36,8 +107,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="63" />
+          <entry key="CLASS" value="3" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="86" />
           <entry key="JSP" value="1" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="5" />
@@ -46,7 +118,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="java" value="908" />
+          <entry key="java" value="2083" />
           <entry key="properties" value="117" />
           <entry key="txt" value="111" />
           <entry key="xml" value="33" />
@@ -54,7 +126,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="908" />
+          <entry key="JAVA" value="2083" />
           <entry key="PLAIN_TEXT" value="117" />
           <entry key="Properties" value="117" />
           <entry key="XML" value="33" />
@@ -63,81 +135,65 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/controller/CustomerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/CustomerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="14" column="66" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/ItemService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/OrderDetailService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/OrderService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/CustomerServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="57" column="67" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
+            <state relative-caret-position="743">
+              <caret line="56" column="35" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#851#852#0" expanded="true" />
-                <element signature="e#905#906#0" expanded="true" />
-                <element signature="e#821#822#0" expanded="true" />
-                <element signature="e#848#849#0" expanded="true" />
-                <element signature="e#927#928#0" expanded="true" />
-                <element signature="e#954#955#0" expanded="true" />
-                <element signature="e#1019#1020#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-                <element signature="e#1113#1114#0" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/repository/CustomerRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/configuration/WebConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/controller/CustomerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="956">
+              <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/controller/ItemController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/OrderDetailServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,62 +202,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/ItemServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-230">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="368">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#429#430#0" expanded="true" />
                 <element signature="e#456#457#0" expanded="true" />
                 <element signature="e#523#524#0" expanded="true" />
                 <element signature="e#550#551#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
-                <element signature="e#787#788#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/OrderDetailServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/CRUDServices.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="299">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/OrderServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#622#623#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#740#741#0" expanded="true" />
-                <element signature="e#800#801#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -213,6 +233,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>CustomerServiceImpl.saveService111111111111</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -229,26 +254,27 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/dto/OrderDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/configuration/PersistenceConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/OrderDetailEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/OrderEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/ItemEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/CustomerEntity.java" />
         <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/CURDservice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/CustomerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/CustomerService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/CRUDServices.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/mapper/custom/CustomerMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/mapper/SuperMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/mapper/custom/impl/CustomerMapperImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/CustomerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/controller/CustomerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/ItemService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/OrderDetailService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/OrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/ItemEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/OrderEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/dto/CustomerDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/mapper/SuperMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/CustomerEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/mapper/custom/impl/CustomerMapperImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/mapper/custom/CustomerMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/CRUDServices.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/ItemServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/OrderDetailServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/CustomerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/controller/CustomerController.java" />
       </list>
     </option>
   </component>
@@ -285,7 +311,7 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="632" />
+    <option name="x" value="683" />
     <option name="width" value="683" />
     <option name="height" value="768" />
   </component>
@@ -339,6 +365,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springposangular" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-pos-angular-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-pos-angular-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springposangular" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -348,15 +383,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springposangular" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-pos-angular-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-pos-angular-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springposangular" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -387,6 +413,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springposangular" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-pos-angular-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-pos-angular-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springposangular" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -412,17 +447,94 @@
             </path>
             <path>
               <item name="spring-pos-angular-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-pos-angular-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="spring-pos-angular-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-pos-angular-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring-pos-angular-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-pos-angular-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-pos-angular-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-pos-angular-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-commons:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring-pos-angular-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-commons:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-commons-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-pos-angular-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-commons:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-commons-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-pos-angular-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-commons:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-commons-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-pos-angular-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring-pos-angular-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-jpa-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-pos-angular-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-jpa-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-pos-angular-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-jpa-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-pos-angular-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-jpa-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -435,14 +547,14 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565897942456" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566420648219" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/target" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -552,6 +664,8 @@
       <option name="presentableId" value="Default" />
       <updated>1565863484519</updated>
       <workItem from="1565863500165" duration="18222000" />
+      <workItem from="1566483252856" duration="8467000" />
+      <workItem from="1566544487275" duration="4939000" />
     </task>
     <task id="LOCAL-00001" summary="--adding Mapper Implementations and decrease boiler plating Service Layer.">
       <created>1565897614179</created>
@@ -585,37 +699,35 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18222000" />
+    <option name="totallyTimeSpent" value="41753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info id="Web" sideWeight="0.5013928" side_tool="true" weight="0.30937973" />
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49860725" visible="true" weight="0.2881997" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49860725" visible="true" weight="0.2753404" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="7" sideWeight="0.5013928" side_tool="true" weight="0.30937973" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32840723" />
       <window_info anchor="bottom" id="Spring" order="1" />
-      <window_info anchor="bottom" id="Messages" order="2" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32840723" />
       <window_info anchor="bottom" id="SonarLint" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" visible="true" weight="0.4827586" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="4" visible="true" weight="0.9310345" />
       <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.32840723" />
       <window_info anchor="bottom" id="Terminal" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.4729064" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.039408866" />
       <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="15" />
-      <window_info anchor="right" id="Remote Host" />
-      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -625,6 +737,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,13 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/repository/CustomerRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -693,9 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -713,102 +817,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/dto/CustomerDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-774">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/CustomerEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1058">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/ItemEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/Order_Detail_PK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/OrderDetailEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/configuration/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/configuration/POSConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding>
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/configuration/PersistenceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="64" column="105" selection-start-line="64" selection-start-column="105" selection-end-line="64" selection-end-column="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/OrderEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -819,104 +832,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/CURDservice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/CRUDService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/CustomerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="8" column="59" lean-forward="true" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/CRUDServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/mapper/SuperMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/mapper/custom/CustomerMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/mapper/custom/impl/CustomerMapperImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/CustomerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="57" column="67" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/controller/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/CURDservice.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/CRUDService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/CustomerServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/OrderDetailService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -924,16 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/CustomerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="14" column="66" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -941,6 +853,138 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/OrderEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/OrderDetailEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1093">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/Order_Detail_PK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/mapper/SuperMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/CustomerEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/dto/CustomerDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1426">
+          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/entity/ItemEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/mapper/custom/CustomerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/mapper/custom/impl/CustomerMapperImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-pos-angular-api.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/configuration/PersistenceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/configuration/POSConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/configuration/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/OrderDetailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -949,56 +993,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/ItemServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-230">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="368">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#429#430#0" expanded="true" />
             <element signature="e#456#457#0" expanded="true" />
             <element signature="e#523#524#0" expanded="true" />
             <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/OrderDetailServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/CRUDServices.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="299">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.0.RELEASE/spring-data-jpa-2.1.0.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/repository/CustomerRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/CustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="56" column="35" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/service/custom/impl/OrderServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/controller/CustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        <state relative-caret-position="956">
+          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dhanushka/springposangular/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

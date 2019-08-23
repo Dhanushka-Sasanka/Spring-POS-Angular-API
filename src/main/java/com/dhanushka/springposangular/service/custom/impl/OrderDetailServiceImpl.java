@@ -25,8 +25,8 @@ public class OrderDetailServiceImpl implements OrderDetailService {
     }
 
     @Override
-    public OrderDetailDTO deleteService(String id) {
-        return null;
+    public void deleteService(String id) {
+
     }
 
     @Override

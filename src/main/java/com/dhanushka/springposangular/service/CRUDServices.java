@@ -16,7 +16,7 @@ public interface CRUDServices<T> {
 
     public T  updateService(T t);
 
-    public T  deleteService(String id);
+    public void  deleteService(String id);
 
     public T  findByIdService(String id);
 

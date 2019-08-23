@@ -21,7 +21,8 @@ public class CustomerMapperImpl implements CustomerMapper {
                 dto.getCustomerName(),
                 dto.getCustomerAddress(),
                 dto.getCustomerTele(),
-                dto.getCustomerEmail());
+                dto.getCustomerEmail(),
+                dto.getByteImage());
     }
 
     @Override
@@ -31,6 +32,30 @@ public class CustomerMapperImpl implements CustomerMapper {
                 entity.getCustomerName(),
                 entity.getCustomerAddress(),
                 entity.getCustomerTele(),
-                entity.getCustomerEmail());
+                entity.getCustomerEmail(),
+                entity.getCustomerImage());
     }
+
+
+    @Override
+    public CustomerEntity getEntityFromMapperWithImage(CustomerDTO dto) {
+        return new CustomerEntity(
+                dto.getCustomerId(),
+                dto.getCustomerName(),
+                dto.getCustomerAddress(),
+                dto.getCustomerTele(),
+                dto.getCustomerEmail(),
+                dto.getCustomerImage().getBytes());
+    }
+
+//    @Override
+//    public CustomerDTO getDTOFromMapperWithImage(CustomerEntity entity) {
+//        return new CustomerDTO(
+//                entity.getCustomerId(),
+//                entity.getCustomerName(),
+//                entity.getCustomerAddress(),
+//                entity.getCustomerTele(),
+//                entity.getCustomerEmail(),
+//                entity.getCustomerImage());
+//    }
 }

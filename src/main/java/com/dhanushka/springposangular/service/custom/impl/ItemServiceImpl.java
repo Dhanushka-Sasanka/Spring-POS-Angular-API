@@ -25,8 +25,8 @@ public class ItemServiceImpl implements ItemService {
     }
 
     @Override
-    public ItemDTO deleteService(String id) {
-        return null;
+    public void deleteService(String id) {
+
     }
 
     @Override

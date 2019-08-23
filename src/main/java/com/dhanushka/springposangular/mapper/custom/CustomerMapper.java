@@ -11,4 +11,7 @@ import com.dhanushka.springposangular.entity.CustomerEntity;
 import com.dhanushka.springposangular.mapper.SuperMapper;
 
 public interface CustomerMapper extends SuperMapper<CustomerEntity, CustomerDTO> {
+
+    CustomerEntity  getEntityFromMapperWithImage(CustomerDTO dto);
+//    CustomerDTO  getDTOFromMapperWithImage(CustomerEntity entity);
 }

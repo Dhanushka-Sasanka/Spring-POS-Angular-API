@@ -15,7 +15,6 @@ import java.util.List;
 @Entity(name="Orders")
 public class OrderEntity implements Serializable {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private String orderid;
     @Temporal(TemporalType.DATE)
     private Date date;

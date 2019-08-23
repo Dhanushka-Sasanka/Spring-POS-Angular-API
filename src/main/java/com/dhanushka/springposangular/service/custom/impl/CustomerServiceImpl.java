@@ -18,6 +18,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class CustomerServiceImpl implements CustomerService {
@@ -34,30 +35,35 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public CustomerDTO saveService(CustomerDTO customerDTO) {
-        CustomerEntity customerEntity = new CustomerEntity(customerDTO.getCustomerId(), customerDTO.getCustomerName(), customerDTO.getCustomerAddress(), customerDTO.getCustomerTele(), customerDTO.getCustomerEmail());
-        System.out.println("customerEntity = " + customerEntity);
-        System.out.println("CustomerServiceImpl.saveService111111111111");
-        CustomerEntity customerEntity1 = customerRepo.save(customerEntity);//customerMapper.getEntityFromMapper(customerDTO)
-        System.out.println("CustomerServiceImpl.saveService2222222222222222");
+
+        //customerMapper.getEntityFromMapper(customerDTO)
+        CustomerEntity customerEntity1 = customerRepo.save(customerMapper.getEntityFromMapperWithImage(customerDTO));
         return customerMapper.getDTOFromMapper(customerEntity1);
 //        if(saveCustomer.getCustomerEmail().equalsIgnoreCase(customerDTO.getCustomerEmail())){
 //        }
-//        return null;
+
     }
 
     @Override
     public CustomerDTO updateService(CustomerDTO customerDTO) {
-        return null;
+//        in JPARepository we can use save(); as a update method
+        CustomerEntity customerEntity1 = customerRepo.save(customerMapper.getEntityFromMapperWithImage(customerDTO));
+        return customerMapper.getDTOFromMapper(customerEntity1);
+
     }
 
     @Override
-    public CustomerDTO deleteService(String id) {
-        return null;
-    }
+    public void deleteService(String id) {
+        customerRepo.deleteById(id);
 
+    }
     @Override
     public CustomerDTO findByIdService(String id) {
-        return null;
+
+//        CustomerEntity customer = customerRepo.getOne(id);
+        CustomerEntity customerEntity = customerRepo.findById(id).orElseThrow(null);
+        return customerMapper.getDTOFromMapper(customerEntity);
+
     }
 
     @Override
