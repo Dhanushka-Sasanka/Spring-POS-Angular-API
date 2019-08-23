@@ -6,6 +6,7 @@
 
 package com.dhanushka.springposangular.configuration;
 
+import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
 
 import org.springframework.context.annotation.ComponentScan;
@@ -45,5 +46,9 @@ public class WebConfig implements WebMvcConfigurer {
         return resolver;
     }
 
+    @Bean
+    public ModelMapper modelMapper() {
+        return new ModelMapper();
+    }
 
 }

@@ -41,7 +41,7 @@ public class CustomerServiceImpl implements CustomerService {
         return customerMapper.getDTOFromMapper(customerEntity1);
 //        if(saveCustomer.getCustomerEmail().equalsIgnoreCase(customerDTO.getCustomerEmail())){
 //        }
-
+//
     }
 
     @Override
