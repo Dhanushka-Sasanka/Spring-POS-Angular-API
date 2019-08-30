@@ -14,9 +14,12 @@ import com.dhanushka.springposangular.mapper.custom.OrderMapper;
 public class OrderMapperImpl implements OrderMapper {
     @Override
     public OrderEntity getEntityFromMapper(OrderDTO dto) {
-
-//        return new OrderEntity(dto.getOrderId(),dto.getDate(),dto.getAmount(),dto.getCustomerId());
-return null;
+        CustomerEntity customerEntity = new CustomerEntity();
+        customerEntity.setCustomerId(dto.getCustomerId());
+        System.out.println("OrderMapperImpl.getEntityFromMapper");
+        System.out.println("customerEntity = " + customerEntity);
+        return new OrderEntity(dto.getOrderId(),dto.getDate(),dto.getAmount(),customerEntity);
+//return null;
     }
 
     @Override

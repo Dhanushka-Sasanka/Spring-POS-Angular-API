@@ -6,23 +6,28 @@
 
 package com.dhanushka.springposangular.dto;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.util.Date;
 import java.util.List;
 
 public class PlaceOrderDTO {
 
     private String customerId;
-    private String itemcode;
-    private Date date;
+    private String orderID;
+    @JsonFormat(pattern = "yyyy-MM-dd")
+    private Date date = new Date();
+    private double amount;
     private List<OrderDetailDTO> orderDetailDTOList;
 
     public PlaceOrderDTO() {
     }
 
-    public PlaceOrderDTO(String customerId, String itemcode, Date date, List<OrderDetailDTO> orderDetailDTOList) {
+    public PlaceOrderDTO(String customerId, String orderID, Date date, double amount, List<OrderDetailDTO> orderDetailDTOList) {
         this.customerId = customerId;
-        this.itemcode = itemcode;
+        this.orderID = orderID;
         this.date = date;
+        this.amount = amount;
         this.orderDetailDTOList = orderDetailDTOList;
     }
 
@@ -34,12 +39,20 @@ public class PlaceOrderDTO {
         this.customerId = customerId;
     }
 
-    public String getItemcode() {
-        return itemcode;
+    public double getAmount() {
+        return amount;
     }
 
-    public void setItemcode(String itemcode) {
-        this.itemcode = itemcode;
+    public void setAmount(double amount) {
+        this.amount = amount;
+    }
+
+    public String getorderID() {
+        return orderID;
+    }
+
+    public void setorderID(String orderID) {
+        this.orderID = orderID;
     }
 
     public Date getDate() {
@@ -62,7 +75,7 @@ public class PlaceOrderDTO {
     public String toString() {
         return "PlaceOrderDTO{" +
                 "customerId='" + customerId + '\'' +
-                ", itemcode='" + itemcode + '\'' +
+                ", orderID='" + orderID + '\'' +
                 ", date=" + date +
                 ", orderDetailDTOList=" + orderDetailDTOList +
                 '}';

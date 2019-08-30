@@ -25,11 +25,12 @@ public class ItemEntity implements Serializable {
     public ItemEntity() {
     }
 
-    public ItemEntity(String itemcode, String itemdescription, int qunatity, double unitprice) {
+    public ItemEntity(String itemcode, String itemdescription, int qunatity, double unitprice, List<OrderDetailEntity> orderDetail) {
         this.itemcode = itemcode;
         this.itemdescription = itemdescription;
         this.qunatity = qunatity;
         this.unitprice = unitprice;
+        this.orderDetail = orderDetail;
     }
 
     public String getItemcode() {

@@ -6,13 +6,17 @@
 
 package com.dhanushka.springposangular.dto;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.util.Date;
 
 public class OrderDTO {
 
     private String orderId;
     private String customerId;
-    private Date date;
+
+    @JsonFormat(pattern = "yyyy-MM-dd")
+    private Date date = new Date();
     private double amount;
 
     public OrderDTO() {

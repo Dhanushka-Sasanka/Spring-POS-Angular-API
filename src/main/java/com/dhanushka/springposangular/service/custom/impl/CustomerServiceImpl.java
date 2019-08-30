@@ -12,6 +12,7 @@ import com.dhanushka.springposangular.mapper.custom.CustomerMapper;
 import com.dhanushka.springposangular.mapper.custom.impl.CustomerMapperImpl;
 import com.dhanushka.springposangular.repository.CustomerRepo;
 import com.dhanushka.springposangular.service.custom.CustomerService;
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -19,12 +20,16 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 public class CustomerServiceImpl implements CustomerService {
 
     @Autowired
     private CustomerRepo customerRepo;
+
+//    @Autowired
+//    private ModelMapper modelMapper;
 
     private CustomerMapper customerMapper;
 
@@ -37,11 +42,12 @@ public class CustomerServiceImpl implements CustomerService {
     public CustomerDTO saveService(CustomerDTO customerDTO) {
 
         //customerMapper.getEntityFromMapper(customerDTO)
-        CustomerEntity customerEntity1 = customerRepo.save(customerMapper.getEntityFromMapperWithImage(customerDTO));
-        return customerMapper.getDTOFromMapper(customerEntity1);
-//        if(saveCustomer.getCustomerEmail().equalsIgnoreCase(customerDTO.getCustomerEmail())){
-//        }
-//
+        CustomerEntity customerEntity = customerRepo.save(customerMapper.getEntityFromMapperWithImage(customerDTO));
+        return customerMapper.getDTOFromMapper(customerEntity);
+//        convertToEntity();
+//        return customerEntity.stream()
+//                .map(post -> convertToDto(post))
+//                .collect(Collectors.toList());
     }
 
     @Override
